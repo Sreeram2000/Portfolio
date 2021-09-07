@@ -10,11 +10,18 @@ img {
     align-items: center;
 }
 
-li {
+ul {
     list-style: none;
     padding: 0;
 }
 
+.projectList {
+    align-items: left;
+}
+
+small {
+    align-items: left;
+}
 section {
     margin: auto 6rem;
     margin-top: 0;
