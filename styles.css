@@ -3,7 +3,7 @@
     --main-font : #696969;
 }
 img {
-    max-width : 300px;
+    max-width : 400px;
     margin : 1rem auto;
     display: block;
 }
@@ -42,18 +42,29 @@ strong {
     color: var(--font-color);
 }
 
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.list-top {
+    margin-top: -15px;
+    padding-right: 5%;
+}
+
 footer {
     background-color: var(--font-color);
     color : white;
     text-align: center;
     padding : 1rem;
     font-weight: bold;
+    margin: 0 6rem;
+    margin-bottom:-20px;
 }
 
 nav {
     background-color: var(--font-color);
-    margin : 1rem;
-    margin-top: 0;
+    margin: 0 6rem;
+    margin-top : -20px;
 }
 
 .navigation-inline {
@@ -65,6 +76,7 @@ h1 {
     color: white;
     text-align: left;
     padding: 1rem 2rem;
+    margin-bottom: -20px;
 }
 
 .navigation-right {
