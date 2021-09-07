@@ -1,6 +1,7 @@
 :root {
     --font-color : #00B0FF;
     --main-font : #696969;
+    --off-white: #f3f4f6;
 }
 img {
     max-width : 400px;
@@ -17,6 +18,7 @@ section {
     margin: 0 6rem;
     margin-top: 0;
     padding-top: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -51,34 +53,41 @@ body {
     padding-right: 5%;
 }
 
+nav {
+    background-color: var(--font-color);
+    margin: 0 6rem;
+    margin-top : -30px;
+}
+
+.navigation-inline {
+    display:inline-block;
+    padding: 0 8px; 
+    padding-bottom: 10px;
+}
+
+.heading {
+    color: white;
+    text-align: left;
+    padding: 1rem 2rem;
+    margin-bottom: -20px;
+    padding-top: 30px;
+}
+
+.navigation-right {
+    text-align : right;
+}
+
+.top-bottom {
+    background-color: var(--off-white);
+    padding : 10px;
+}
+
+
 footer {
     background-color: var(--font-color);
     color : white;
     text-align: center;
     padding : 1rem;
-    font-weight: bold;
-    margin: 0 6rem;
+    margin: 10px 6rem;
     margin-bottom:-20px;
-}
-
-nav {
-    background-color: var(--font-color);
-    margin: 0 6rem;
-    margin-top : -20px;
-}
-
-.navigation-inline {
-    display:inline-block;
-    padding-top: 0;
-}
-
-h1 {
-    color: white;
-    text-align: left;
-    padding: 1rem 2rem;
-    margin-bottom: -20px;
-}
-
-.navigation-right {
-    text-align : right;
 }
