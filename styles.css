@@ -1,0 +1,64 @@
+:root {
+    --font-color : #00B0FF;
+    --main-font : #696969;
+}
+img {
+    max-width : 300px;
+    margin : 1rem auto;
+    display: block;
+}
+
+li {
+    list-style: none;
+    padding: 0.25rem;
+}
+
+a {
+    color : white;
+    text-decoration: none;
+    display: flex;
+    padding: 1rem 1rem;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.navigation-center {
+    display : center;
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--main-font);
+}
+
+strong {
+    color: var(--font-color);
+}
+
+footer {
+    background-color: var(--font-color);
+    color : white;
+    text-align: center;
+}
+
+nav {
+    background-color: var(--font-color);
+}
+
+.navigation {
+    padding: 1rem;
+}
+
+.navigation-inline {
+    display:inline-block;
+}
+
+h1 {
+    color: white;
+}
+
+.navigation-right {
+    text-align : right;
+}
