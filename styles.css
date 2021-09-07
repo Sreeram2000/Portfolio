@@ -10,7 +10,13 @@ img {
 
 li {
     list-style: none;
-    padding: 0.25rem;
+    padding: 0;
+}
+
+section {
+    margin: 0 6rem;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 a {
@@ -18,7 +24,6 @@ a {
     text-decoration: none;
     display: flex;
     padding: 1rem 1rem;
-    font-weight: bold;
     font-size: 17px;
 }
 
@@ -41,22 +46,25 @@ footer {
     background-color: var(--font-color);
     color : white;
     text-align: center;
+    padding : 1rem;
+    font-weight: bold;
 }
 
 nav {
     background-color: var(--font-color);
-}
-
-.navigation {
-    padding: 1rem;
+    margin : 1rem;
+    margin-top: 0;
 }
 
 .navigation-inline {
     display:inline-block;
+    padding-top: 0;
 }
 
 h1 {
     color: white;
+    text-align: left;
+    padding: 1rem 2rem;
 }
 
 .navigation-right {
