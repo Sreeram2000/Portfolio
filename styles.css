@@ -23,7 +23,8 @@ small {
     align-items: left;
 }
 section {
-    margin: auto 6rem;
+    margin: auto;
+    width: 80%;
     margin-top: 0;
     padding-top: 0;
     font-family: "Montserrat", sans-serif;
@@ -69,7 +70,8 @@ body {
 
 nav {
     background-color: var(--font-color);
-    margin: 0 6rem;
+    margin: auto;
+    width: 80%;
     margin-top : -30px;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem; 
@@ -128,9 +130,11 @@ nav {
 footer {
     background-color: var(--font-color);
     color : white;
+    align-items: center;
     text-align: center;
     padding : 1rem;
-    margin: 10px 6rem;
+    margin: auto;
+    width: 80%;
     margin-bottom:-20px;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
