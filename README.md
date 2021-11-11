@@ -1,2 +1,2 @@
 # Portfolio
-Building a portfolio site.
+Building a portfolio site vanillaJs.
